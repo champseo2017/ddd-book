@@ -1,0 +1,52 @@
+# ไฟล์ที่สร้างจาก macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# โฟลเดอร์ที่เก็บ modules ของ Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+
+# ไฟล์ environment ที่มีข้อมูลสำคัญ
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ไฟล์ log ต่างๆ
+logs
+*.log
+npm-debug.log*
+
+# ไฟล์ที่สร้างตอน build
+dist/
+build/
+coverage/
+.next/
+out/
+.nuxt/
+
+# ไฟล์ระบบ IDE และ Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# ไฟล์ cache
+.npm
+.eslintcache
+.stylelintcache
+
+# ไฟล์ temporary
+*.tmp
+*.temp
+.cache/
